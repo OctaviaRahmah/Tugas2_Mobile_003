@@ -1,0 +1,32 @@
+import 'package:flutter/material.dart';
+import 'package:flutterapp/tugas2_mobile_085019003app/generatediphone8plus1widget/GeneratedIPhone8Plus1Widget.dart';
+import 'package:flutterapp/tugas2_mobile_085019003app/generatediphone8plus3widget/GeneratedIPhone8Plus3Widget.dart';
+import 'package:flutterapp/tugas2_mobile_085019003app/generatediphone8plus2widget/GeneratedIPhone8Plus2Widget.dart';
+import 'package:flutterapp/tugas2_mobile_085019003app/generatedicbaselinefavoriteborderwidget/GeneratedIcbaselinefavoriteborderWidget.dart';
+
+void main() {
+  runApp(Tugas2_Mobile_085019003App());
+}
+
+class Tugas2_Mobile_085019003App extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      initialRoute: '/GeneratedIPhone8Plus1Widget',
+      routes: {
+        '/GeneratedIPhone8Plus1Widget': (context) =>
+            GeneratedIPhone8Plus1Widget(),
+        '/GeneratedIPhone8Plus3Widget': (context) =>
+            GeneratedIPhone8Plus3Widget(),
+        '/GeneratedIPhone8Plus2Widget': (context) =>
+            GeneratedIPhone8Plus2Widget(),
+        '/GeneratedIcbaselinefavoriteborderWidget': (context) =>
+            GeneratedIcbaselinefavoriteborderWidget(),
+      },
+    );
+  }
+}
